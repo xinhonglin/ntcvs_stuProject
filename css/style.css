@@ -75,13 +75,13 @@ body {
     list-style: none;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
   }
 
   /* 項目 */
   li {
     width: 30%;
-    max-width: 400px;
     height: 230px;
     display: flex;
     justify-content: center;
@@ -137,8 +137,13 @@ body {
 
   
   @media(max-width:992px){
+    ul{
+      flex-direction: column;
+    }
+
     li{
       width: 100%;
+      max-width: 400px;
       margin-right: 0px;
       margin-bottom: 30px;
     }
