@@ -29,7 +29,6 @@ body {
     align-items: center;
     flex-direction: column;
     position: relative;
-    padding: 30px;
   }
   
   /* Web Design */
@@ -64,6 +63,7 @@ body {
     letter-spacing: 2px;
     font-weight: 300;
     margin-top: 5%;
+    margin-bottom: 30px;
   }
 
 
@@ -135,7 +135,7 @@ body {
     margin-top: 10px;
   }
 
-  
+  /* 響應式網頁 */
   @media(max-width:992px){
     ul{
       flex-direction: column;
